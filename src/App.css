@@ -5,5 +5,21 @@
 }
 
 .BakeryItem {
-  
+  background-color: beige;
+  width: fit-content;
+  padding: 20px;
+  margin: 20px;
+}
+
+.BakeryItem > button {
+  border: none;
+  padding: 10px;
+  background-color: #449922;
+  color: white;
+  font-size: 20px;
+  border-radius: 5px;
+}
+
+.BakeryItem > button:hover {
+  background-color: #338811;
 }
